@@ -1,4 +1,4 @@
-H5P.AdvancedText = (function ($) {
+H5P.AdvancedText = (function ($) {
 
   /**
    * A simple library for displaying text with advanced styling.
