@@ -14,3 +14,6 @@
 .h5p-advanced-text ol li {
   list-style-type: decimal;
 }
+.h5p-advanced-text.h5p-frame {
+  margin: 1em;
+}
