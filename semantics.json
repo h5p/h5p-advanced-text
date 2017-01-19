@@ -4,6 +4,7 @@
     "type": "text",
     "widget": "html",
     "label": "Text",
+    "importance": "high",
     "enterMode": "p",
     "tags": [
       "strong",
