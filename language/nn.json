@@ -1,7 +1,10 @@
 {
-  "semantics": [
+  "semantics":[
     {
-      "label": "Tekst"
+      "label":"Tekst",
+      "font":{
+        
+      }
     }
   ]
 }
