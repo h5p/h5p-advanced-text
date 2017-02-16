@@ -1,7 +1,10 @@
 {
-  "semantics": [
+  "semantics":[
     {
-      "label": "النص"
+      "label":"النص",
+      "font":{
+        
+      }
     }
   ]
 }
