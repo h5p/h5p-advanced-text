@@ -22,3 +22,26 @@
 .h5p-advanced-text.h5p-frame {
   margin: 1em;
 }
+
+/* From cp.css (course presentation)*/
+.h5p-advanced-text table {
+  border: 0; /*override default from CKeditor*/
+  border-collapse: collapse;
+}
+
+.h5p-advanced-text table th {
+  border: 0;/*override default from CKeditor*/
+  border-bottom: 0.167em solid #494949;
+  padding: 3px;
+}
+
+.h5p-advanced-text table td {
+  border: 0;/*override default from CKeditor*/
+  border-bottom: 0.083em solid #494949;
+  padding: 3px;
+}
+
+.h5p-advanced-text table tr:last-child td {
+  border-bottom: 0;
+}
+

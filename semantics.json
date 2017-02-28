@@ -15,7 +15,8 @@
       "ol",
       "h2",
       "h3",
-      "hr"
+      "hr",
+      "table"
     ],
     "font": {
       "size": true,
