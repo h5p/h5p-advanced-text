@@ -1,4 +1,4 @@
-H5P.AdvancedText = (function ($) {
+H5P.AdvancedText = (function ($, EventDispatcher) {
 
   /**
    * A simple library for displaying text with advanced styling.
@@ -10,6 +10,7 @@ H5P.AdvancedText = (function ($) {
    */
   function AdvancedText(parameters, id) {
     var self = this;
+    EventDispatcher.call(this);
 
     var html = (parameters.text === undefined ? '<em>New text</em>' : parameters.text);
 
@@ -26,4 +27,4 @@ H5P.AdvancedText = (function ($) {
 
   return AdvancedText;
 
-})(H5P.jQuery);
+})(H5P.jQuery, H5P.EventDispatcher);
