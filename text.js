@@ -25,6 +25,9 @@ H5P.AdvancedText = (function ($, EventDispatcher) {
     };
   }
 
+  AdvancedText.prototype = Object.create(EventDispatcher.prototype);
+  AdvancedText.prototype.constructor = AdvancedText;
+
   return AdvancedText;
 
 })(H5P.jQuery, H5P.EventDispatcher);
